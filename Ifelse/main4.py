@@ -1,4 +1,5 @@
-jumlah_hari = int(input("Masukkan jumlah hari yang ingin dihitung pengeluarannya: "))
+jumlah_hari = int(
+    input("Masukkan jumlah hari yang ingin dihitung pengeluarannya: "))
 pengeluaran_harian = []
 for hari in range(1, jumlah_hari + 1):
     pengeluaran = float(input(f"Masukkan pengeluaran untuk Hari ke-{hari}: "))

@@ -6,6 +6,7 @@ def cari_data(daftar, data):
     else:
         return False
 
+
 # Gunakan fungsi cari_data untuk mencari data dalam daftar berikut
 data_mahasiswa = ["Alice", "Bob", "Charlie", "David"]
 

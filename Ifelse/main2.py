@@ -6,6 +6,8 @@ tahun_lahir = int(input("Tahun Kelahiran Anda: "))
 bulan_lahir = int(input("Bulan Kelahiran Anda: "))
 tanggal_lahir = int(input("Tanggal Kelahiran Anda: "))
 # Hitung umur
+
+
 def umur():
     lahir_tanggal = datetime.datetime(tahun_lahir, bulan_lahir, tanggal_lahir)
     selisih = sekarang - lahir_tanggal
@@ -14,8 +16,11 @@ def umur():
     bulan = sisa_hari // 30
     hari = sisa_hari % 30
     return tahun, bulan, hari
+
+
 usia_tahun, usia_bulan, usia_hari = umur()
-print(f"Anda berusia {usia_tahun} tahun, {usia_bulan} bulan, dan {usia_hari} hari.")
+print(
+    f"Anda berusia {usia_tahun} tahun, {usia_bulan} bulan, dan {usia_hari} hari.")
 # Menanyakan SIM
 if usia_tahun >= 17:
     print(f"Anda berusia {usia_tahun} tahun. Anda layak mengendarai mobil.")

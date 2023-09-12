@@ -4,6 +4,7 @@ def hitung_bmi(berat, tinggi):
     hasil = berat / (tinggi * tinggi)
     return hasil
 
+
 # Panggil fungsi hitung_bmi untuk menghitung BMI
 beratmu = float(input("Beratmu Pirang Kilo: "))
 tinggimu = float(input("Tinggimu Pirang Meter: "))
@@ -16,5 +17,5 @@ elif 18.5 <= bmi < 25:
     print("Normal")
 elif 25 <= bmi < 30:
     print("Diet")
-else:   
+else:
     print("Kelemon")

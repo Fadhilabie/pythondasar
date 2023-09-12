@@ -3,6 +3,7 @@ def pembagian_bulat(angka1, angka2):
     hasil_pembagian = round(angka1 / angka2)
     return hasil_pembagian
 
+
 # Gunakan fungsi pembagian_bulat untuk menghitung pembagian bulat dari dua angka berikut
 angka1 = int(input("Lebokne angka: "))
 angka2 = int(input("Meneh: "))

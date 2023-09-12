@@ -12,9 +12,9 @@ nama = input("Siapa nama anda? ")
 # print(f"Salam kenal {nama}")
 
 # 3. Else Statement
-if nama=="otong":
-	print("Hai otooong, si keren!!!")
+if nama == "otong":
+    print("Hai otooong, si keren!!!")
 else:
-	print("Ah kamu bukan otong, kamu gak keren! :(")
+    print("Ah kamu bukan otong, kamu gak keren! :(")
 
 print("Salam kenal")

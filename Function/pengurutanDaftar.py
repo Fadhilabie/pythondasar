@@ -4,8 +4,9 @@ def urutkan_daftar(daftar):
     daftar_urut = sorted(daftar)
     return daftar_urut
 
+
 # Gunakan fungsi urutkan_daftar untuk mengurutkan daftar berikut
-daftar_angka = [4, 2, 7, 1, 9]    
+daftar_angka = [4, 2, 7, 1, 9]
 
 # Panggil fungsi urutkan_daftar untuk mengurutkan daftar_angka
 daftar_urut = urutkan_daftar(daftar_angka)

@@ -26,4 +26,3 @@ elif sekarang.hour < 18:
     print("Selamat sore!")
 else:
     print("Selamat malam!")
-

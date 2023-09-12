@@ -4,6 +4,7 @@ def hitung_pajak(penghasilan):
     pajak = 0.05 * penghasilan
     return pajak
 
+
 # Panggil fungsi hitung_pajak untuk menghitung jumlah pajak yang harus dibayar
 inputGaji = float(input('Lebokno gajimu: '))
 jumlah_pajak = hitung_pajak(inputGaji)

@@ -5,6 +5,7 @@ def hitung_diskon(harga_awal, persentase_diskon):
     hitung_diskon = harga_awal - jumlah_diskon
     return hitung_diskon
 
+
 # Panggil fungsi hitung_diskon untuk menghitung harga setelah diskon
 harga_awal = float(input("Lebokno rego: "))
 persentase_diskon = float(input("Diskone pirang persen: "))

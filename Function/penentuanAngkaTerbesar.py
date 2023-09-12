@@ -7,6 +7,7 @@ def angka_terbesar(angka1, angka2):
     else:
         return angka2
 
+
 # Mengambil input dari pengguna
 input1 = int(input("Lebokne angka: "))
 input2 = int(input("Meneh: "))
