@@ -3,7 +3,6 @@ kata = input("Kei aku kata kata boss: ")
 
 # Fungsi cek_palindrom menerima sebuah kata sebagai input dan mengembalikan hasil
 def cek_palindrom(kata):
-    # Tambahkan kode di sini
     if kata == kata[::-1]:
         print("anjay kata katamu palindrom")
     else:
