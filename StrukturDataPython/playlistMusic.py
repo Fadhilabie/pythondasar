@@ -1,35 +1,54 @@
 # Program: Manajemen Playlist Musik dengan Tipe Data Tuple
+# Karena Tuple tidak bisa diubah maka saya buat set
 
 # Inisialisasi playlist musik kosong
-playlist = ()
+playlist = set(["Sanes","Rungkad","Pingal"])
 
 # Fungsi untuk menambahkan lagu ke playlist
 def tambah_lagu(lagu):
-    # Tambahkan item ke playlist
-    # (Gantilah ... dengan kode yang sesuai)
-    pass
+    playlist.add(lagu)
+    print(f"Lagu {lagu} Ditambahkan")
 
 # Fungsi untuk menghapus lagu dari playlist
 def hapus_lagu(lagu):
-    # Hapus item ke playlist
-    # (Gantilah ... dengan kode yang sesuai)
-    pass
+    if lagu in playlist:
+        playlist.discard(lagu)
+        print(f"Lagu {lagu} Dihapus")
+    else :
+        print(f"Lagu {lagu} Raono")
 
 # Fungsi untuk menampilkan playlist
 def tampilkan_playlist():
-    # Tampilkan item ke playlist
-    # (Gantilah ... dengan kode yang sesuai)
-    pass
+    if playlist:
+        print("Daftar Lagu:")
+        index = 1
+        for lagu in playlist:
+            print(f"{index}. {lagu}")
+            index += 1
+    else:
+        print("Lagu Kosong.")
 
 # Program utama
 while True:
     #Gantilah opsi berikut dengan opsi yang sesuai
-    print("\nPilihan:")
-    print("1. ???")
-    print("2. ???")
-    print("3. ???")
-    print("4. ???")
+    print("\nSpotiify:")
+    print("1. Tambah Lagu")
+    print("2. Hapus Lagu")
+    print("3. Lihat Playlist")
+    print("4. Keluar")
 
     pilihan = input("Masukkan pilihan (1/2/3/4): ")
-    #Masukkan logika pemrograman utama (Main Source)
-    # (Gantilah ... dengan kode yang sesuai)
+
+    if pilihan == '1':
+        lagu = input("Tambah lagu opo:")
+        tambah_lagu(lagu)
+    elif pilihan == '2':
+        lagu = input("Hapus Lagu opo:")
+        hapus_lagu(lagu)
+    elif pilihan == '3':
+        tampilkan_playlist()
+    elif pilihan == '4':
+        print(f"Minggato su")
+        break
+    else:
+        print ("Milih sek bener su")

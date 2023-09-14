@@ -1,14 +1,14 @@
 # Program: Manajemen Daftar Belanjaan dengan Struktur Data Set
 
 # Inisialisasi daftar belanjaan dalam bentuk set
-belanjaan = set(["MTK","BINDO","AGAMA"])
+belanjaan = set(["Sayur","Telur","Jamur"])
 
 # Fungsi untuk menambahkan item ke daftar belanjaan
 
 
 def tambah_item(item):
     belanjaan.add(item)
-    print(f"{task} Item Bertambah")
+    print(f"{item} Item Bertambah")
 
 # Fungsi untuk menghapus item dari daftar belanjaan
 
@@ -26,10 +26,10 @@ def hapus_item(item):
 def tampilkan_daftar():
     if belanjaan:
         print("Daftar Tugas:")
-        nomor = 1
+        index = 1
         for item in belanjaan:
-            print(f"{nomor}. {item}")
-            nomor += 1
+            print(f"{index}. {item}")
+            index += 1
     else:
         print("Daftar Kosong.")
 
@@ -38,19 +38,19 @@ def tampilkan_daftar():
 while True:
     # Gantilah opsi berikut dengan opsi yang sesuai
     print("\nPilihan:")
-    print("1. Tambah")
-    print("2. Hapus")
-    print("3. Ndelok")
+    print("1. Tambah Item")
+    print("2. Hapus Item")
+    print("3. Lihat Item")
     print("4. Minggat")
 
     pilihan = input("Masukkan pilihan (1/2/3/4): ")
 
     if pilihan == '1':
-        task = input("Lebokne Tugas Anyare: ")
-        tambah_item(task)
+        item = input("Meh tuku opo: ")
+        tambah_item(item)
     elif pilihan == '2':
-        task = input("Lebokne Tugas Sek Arep Dihapus:")
-        hapus_item(task)
+        item = input("Rasido opo:")
+        hapus_item(item)
     elif pilihan == '3':
         tampilkan_daftar()
     elif pilihan == '4':
