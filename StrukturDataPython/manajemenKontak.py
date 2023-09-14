@@ -38,6 +38,3 @@ while True:
     print("5. ???")
 
     pilihan = input("Masukkan pilihan (1/2/3/4/5): ")
-    #Masukkan logika pemrograman utama (Main Source)
-    # (Gantilah ... dengan kode yang sesuai)
-    

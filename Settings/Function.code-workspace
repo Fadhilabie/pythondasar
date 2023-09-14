@@ -13,6 +13,9 @@
 			"path": "../StrukturDataPython"
 		},
 		{
+			"path": "../StrukturDataList"
+		},
+		{
 			"path": "."
 		}
 	],
