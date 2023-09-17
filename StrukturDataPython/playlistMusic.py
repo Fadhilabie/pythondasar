@@ -2,22 +2,28 @@
 # Karena Tuple tidak bisa diubah maka saya buat set
 
 # Inisialisasi playlist musik kosong
-playlist = set(["Sanes","Rungkad","Pingal"])
+playlist = set(["Sanes", "Rungkad", "Pingal"])
 
 # Fungsi untuk menambahkan lagu ke playlist
+
+
 def tambah_lagu(lagu):
     playlist.add(lagu)
     print(f"Lagu {lagu} Ditambahkan")
 
 # Fungsi untuk menghapus lagu dari playlist
+
+
 def hapus_lagu(lagu):
     if lagu in playlist:
         playlist.discard(lagu)
         print(f"Lagu {lagu} Dihapus")
-    else :
+    else:
         print(f"Lagu {lagu} Raono")
 
 # Fungsi untuk menampilkan playlist
+
+
 def tampilkan_playlist():
     if playlist:
         print("Daftar Lagu:")
@@ -28,9 +34,10 @@ def tampilkan_playlist():
     else:
         print("Lagu Kosong.")
 
+
 # Program utama
 while True:
-    #Gantilah opsi berikut dengan opsi yang sesuai
+    # Gantilah opsi berikut dengan opsi yang sesuai
     print("\nSpotiify:")
     print("1. Tambah Lagu")
     print("2. Hapus Lagu")
@@ -51,4 +58,4 @@ while True:
         print(f"Minggato su")
         break
     else:
-        print ("Milih sek bener su")
+        print("Milih sek bener su")
