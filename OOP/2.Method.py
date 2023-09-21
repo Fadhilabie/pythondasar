@@ -14,7 +14,7 @@ class Hero:
         print("Namaku adalah " + self.name)
 
     # Method dengan argumen, tanpa return
-    def healthUp(self,up):
+    def healthUp(self, up):
         self.health += up
 
     # Method dengan return

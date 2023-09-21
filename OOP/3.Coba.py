@@ -16,6 +16,7 @@ class Hero:
         self.health -= attack_diterima
         print('darah ' + self.name + ' tersisa ' + str(self.health))
 
+
 masha = Hero('masha', 400, 10, 10)
 claude = Hero('claude', 100, 100, 20)
 

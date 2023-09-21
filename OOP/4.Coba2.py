@@ -4,7 +4,7 @@ class Musik:
         self.genre = genre
         self.durasi = durasi
         self.penyanyi = penyanyi
-        self.is_playing = False
+        self.is_playing = True
 
     def play(self):
         if not self.is_playing:
