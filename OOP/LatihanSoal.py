@@ -41,11 +41,11 @@ contact_list = ContactList()
 
 while True:
     print("\nMenu:")
-    print("1. ???")
-    print("2. ???")
-    print("3. ???")
-    print("4. ???")
-    print("5. ???")
+    print("1. Tambah Kontak")
+    print("2. Hapus Kontak")
+    print("3. Cari Kontak")
+    print("4. Tampilkan Kontak")
+    print("5. Keluar")
 
     choice = input("Pilih menu: ")
 
