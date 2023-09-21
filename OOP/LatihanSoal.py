@@ -1,22 +1,23 @@
 class Contact:
     def __init__(self, name, phone):
-        #Definisikan atribut/variabel dari fungsi init.
-        pass
+        self.name = name
+        self.phone = phone
 
     def get_name(self):
         # Lengkapi metode ini untuk mengembalikan nama kontak
-        pass
+        return self.name
 
     def get_phone(self):
         # Lengkapi metode ini untuk mengembalikan nomor telepon kontak
-        pass
+        return self.phone
 
     def __str__(self):
         return f"{self.name}: {self.phone}"
 
+
 class ContactList:
     def __init__(self):
-        #Definisikan atribut/variabel daftar kontak dari fungsi init sebagai List.
+        # Definisikan atribut/variabel daftar kontak dari fungsi init sebagai List.
         self.contacts = ""
         pass
 
@@ -35,6 +36,7 @@ class ContactList:
     def display_contacts(self):
         # Lengkapi metode ini untuk menampilkan semua kontak dalam daftar
         pass
+
 
 # Membuat objek daftar kontak
 contact_list = ContactList()
@@ -59,6 +61,8 @@ while True:
     elif choice == "2":
         name = input("Masukkan nama kontak yang akan dihapus: ")
         # Panggil metode untuk menghapus kontak berdasarkan nama
+        contact_list.delete_contact(contact)
+        print(f"Kontak {name} telah dihapus")
         pass
 
     elif choice == "3":
