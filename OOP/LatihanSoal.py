@@ -1,5 +1,4 @@
 class Contact:
-    # Mendefinisilkan nama dan nomor
     def __init__(self, name, phone):
         self.name = name
         self.phone = phone
@@ -26,38 +25,16 @@ class ContactList:
         self.contacts.append(contact)
 
     def delete_contact(self, name):
-        found = False
-        for contact in self.contacts:
-            if contact.get_name() == name:
-                self.contacts.remove(contact)
-                found = True
-                print(f"Kontak {name} sudah dihapus.")
-                break
-        if not found:
-            print(f"Kontak dengan nama {name} tidak ditemukan.")
+        # Lengkapi metode ini untuk menghapus kontak berdasarkan nama
+        pass
 
     def search_contact(self, name):
-        found_contacts = []
-
-        for contact in self.contacts:
-            if contact.get_name() == name:
-                found_contacts.append(contact)
-
-        if found_contacts:
-            print(f"Kontak dengan nama {name} ditemukan:")
-            for contact in found_contacts:
-                print(contact)
-        else:
-            print(f"Kontak dengan nama {name} tidak ditemukan.")
+        # Lengkapi metode ini untuk mencari kontak berdasarkan nama
+        pass
 
     def display_contacts(self):
-        if not self.contacts:
-            print("Daftar kontak kosong.")
-        else:
-            print("Daftar kontak:")
-            for contact in self.contacts:
-                print(
-                    f"Nama: {contact.get_name()}, Nomor Telepon: {contact.get_phone()}")
+        # Lengkapi metode ini untuk menampilkan semua kontak dalam daftar
+        pass
 
 
 # Membuat objek daftar kontak
@@ -76,23 +53,25 @@ while True:
     if choice == "1":
         name = input("Masukkan nama kontak: ")
         phone = input("Masukkan nomor telepon kontak: ")
-        contact = Contact(name, phone)
+        contact = contact(name, phone)
         contact_list.add_contact(contact)
         print(f"Kontak {name} telah ditambahkan.")
 
     elif choice == "2":
         name = input("Masukkan nama kontak yang akan dihapus: ")
         # Panggil metode untuk menghapus kontak berdasarkan nama
-        contact_list.delete_contact(name)
+        contact_list.delete_contact(contact)
+        print(f"Kontak {name} telah dihapus")
+        pass
 
     elif choice == "3":
         name = input("Masukkan nama kontak yang akan dicari: ")
         # Panggil metode untuk mencari kontak berdasarkan nama
-        contact_list.search_contact(name)
+        pass
 
     elif choice == "4":
         # Panggil metode untuk menampilkan semua kontak
-        contact_list.display_contacts()
+        pass
 
     elif choice == "5":
         print("Terima kasih! Program selesai.")
