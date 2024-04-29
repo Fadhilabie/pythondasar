@@ -1,20 +1,8 @@
-# Membuat list kosong
-iki_list = []
 
-# Membuat list dengan elemen-elemen
-iki_list = [1, 2, 3, 4, 5]
 
-# Mengakses elemen list
-print(iki_list[0])  # Output: 1
-
-# Mengubah elemen list
-iki_list[0] = 10
-
-# Menambahkan elemen ke list
-iki_list.append(6)
-
-# Menghapus elemen dari list
-del iki_list[1]
-
-# Panjang list
-length = len(iki_list)
+# membuat list Tipe Data Sama
+buah = ["jeruk", "apel", "mangga", "duren"]
+bilangan_prima = [2,3,5,7,11,13,17,19]# membuat list Tipe Data Berbeda
+suhu_keluarga_ucup = ['ayah ucup', 19, 'ucup', 19, 'ibu ucup', 20]
+suhu_keluarga_boy = ['boy', 20, 'anak boy', 18, 'istri boy', 21]# membuat list dalam list dan dicampur dengan data boolean
+suhu_keluarga = [suhu_keluarga_ucup, suhu_keluarga_boy, True]

@@ -1,3 +1,4 @@
+# Program ini dibuat untuk menentukan list dari yang paling kecil
 # Membuat set angka genap
 set_genap = {2, 4, 6, 8, 10}
 
@@ -9,3 +10,10 @@ set_hasil = set_genap.union(set_ganjil)
 
 # Menampilkan hasilnya
 print("Set Hasil Gabungan:", set_hasil)
+
+x = {"asatu", "bdua", "ctiga"}
+y = {"dempat", "elima", "fenam"}
+
+z = x.union(y)
+
+print(z)
