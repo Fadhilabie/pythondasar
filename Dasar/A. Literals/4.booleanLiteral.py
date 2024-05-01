@@ -1,3 +1,5 @@
+# Boolean True dan False
+
 # Penggunaan boolean True
 aktif = True
 if aktif:

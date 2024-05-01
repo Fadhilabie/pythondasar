@@ -1,22 +1,24 @@
+# Numerik Literal
+
 # Integer Positive
 p = 123
 # Integer Negative
 n = -123
-# Zero
+# Bilangan Bulat Nol
 z = 0
-# Bilangan floating-point
+# Bilangan Titik Desimal
 f = 3.15
 # Bilangan floating-point dalam notasi ilmiah
 fp = 4.2e-3
-# Binary
+# Bilangan Binary
 a = 0b10100
-# Decimal
+# Bilangan Decimal
 b = 50
-# Octal
+# Bilangan Octal
 c = 0o320
-# Hexadecimal
+# Bilangan Hexadecimal
 d = 0x12b
 # Bilangan kompleks
 k = 2 + 3j
 
-print(p, n, z, f, fp, a, b, c, d, k,)
+print(p, n, z, f, fp, a, b, c, d, k)

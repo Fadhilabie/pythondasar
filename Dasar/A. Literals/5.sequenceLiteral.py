@@ -1,4 +1,4 @@
-# Container Literal
+# Sequence (Container) Literal
 
 # List literal
 belanjaan = ['sayur', 'telur', 'buah']

@@ -1,7 +1,12 @@
-#  Mereka diapit oleh tanda kutip tunggal, tanda kutip ganda, atau tanda kutip tiga kali
+# String Literal
 
+# Diapit oleh tanda kutip tunggal
 nama_rifai = 'Ahmad Rifai'
+
+# Tanda kutip ganda
 nama_rakha = "Rakha Nayottama"
+
+# Tanda kutip tiga
 nama_abie = '''Fadhil
     Muhammad
         Habibie'''
