@@ -1,10 +1,8 @@
-# Integer Literal
-
-# Positive
+# Integer Positive
 p = 123
-# Negative
+# Integer Negative
 n = -123
-# Nol
+# Zero
 z = 0
 # Bilangan floating-point
 f = 3.15
