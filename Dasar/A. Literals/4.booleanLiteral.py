@@ -1,4 +1,4 @@
-# Boolean True dan False
+# Boolean Literal
 
 # Penggunaan boolean True
 aktif = True
