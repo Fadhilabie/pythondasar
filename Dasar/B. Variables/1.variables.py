@@ -1,6 +1,4 @@
 # Variabel
-
-
 nama = "Fadhil" # String
 umur = 25 # Integer
 tinggi = 175.5 # Float
