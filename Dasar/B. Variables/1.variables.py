@@ -18,5 +18,4 @@ print("Setelah Redeclare:", a)
 # Casting Variabel
 berat_badan = 45
 cast_ke_float = float(berat_badan)
-
 print("Berat Badan :", cast_ke_float)
