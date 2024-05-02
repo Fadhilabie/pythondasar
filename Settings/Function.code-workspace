@@ -1,10 +1,13 @@
 {
 	"folders": [
 		{
-			"path": "../Function"
+			"path": "../Dasar"
 		},
 		{
 			"path": "../Ifelse"
+		},
+		{
+			"path": "../Function"
 		},
 		{
 			"path": "../OOP"
