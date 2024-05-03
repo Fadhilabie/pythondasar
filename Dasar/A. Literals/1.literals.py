@@ -1,4 +1,6 @@
-# String literal
+# Literal
+
+#String Literal
 string_literal = "Hello, World!"
 
 # Numeric literals
